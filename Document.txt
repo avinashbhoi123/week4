@@ -1,0 +1,92 @@
+1. list out the features of html5.
+Semantic Elements.
+Audio and Video Support.
+Canvas Elements.
+Geolocation API.
+Local Storage.
+Responsive Images.
+Web Workers.
+Drag and Drop API.
+2. What are HTML Entities? List out 5 commonly used HTML entities.
+HTML entities are the reserved characters that are used in the HTML document. They are not present in your standard keyboard.
+&nbsp; - non-breaking space
+
+&lt; - less than sign
+
+&gt; - greater than sign
+
+&amp; - ampersand (&)
+
+&quot; - double quotation mark
+
+&apos; - single quotation mark
+
+&cent; - cent sign
+
+&pound; - pound sign
+
+&yen; - yen sign
+
+&euro; - euro sign
+
+&copy; - copyright
+
+&reg; - registered trademark
+
+3. Define accessibility in the context of web development. Discuss why it's essential to create accessible websites and how it benefits different user groups
+Accessibility is the practice of making your websites usable by as many people as possible. We traditionally think of this as being about people with disabilities, but the practice of making sites accessible also benefits other groups such as those using mobile devices, or those with slow network connections.
+
+4. List any 3 ways which help us in improving the accessibility of HTML
+Properly use HTML markup. ...
+Include succinct, descriptive image alt text. ...
+Consider CAPTCHA options. ...
+
+5. Create a web page that highlights the features of HTML5. Use appropriate semantic tags to structure the content and showcase at least three key features of HTML5 with explanations.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Page</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget tristique lorem. Nulla facilisi.</p>
+        </section>
+        <section>
+            <h2>Our Services</h2>
+            <ul>
+                <li>Service 1</li>
+                <li>Service 2</li>
+                <li>Service 3</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:contact@example.com">contact@example.com</a></p>
+            <p>Phone: <a href="tel:+123456789">123-456-789</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Website</p>
+    </footer>
+</body>
+</html>
+
+
+
